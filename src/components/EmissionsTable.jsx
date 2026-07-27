@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { emissions, countries, companies } from '../data/emissions.js'
+import { sanitizeText } from '../utils/sanitize.js'
 
 const columns = [
   { key: 'country', label: 'Land', numeric: false },
@@ -77,7 +78,7 @@ function EmissionsTable() {
             maxLength={100}
             placeholder="Land oder Unternehmen …"
             value={search}
-            onChange={(event) => setSearch(event.target.value)}
+            onChange={(event) => setSearch(sanitizeText(event.target.value))}
           />
         </div>
 
