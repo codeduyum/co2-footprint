@@ -1,8 +1,13 @@
+import Logo from "./Logo.jsx"
+
 function Header() {
     return(
         <header className="site-header">
-            <div>
-                <h1 className="brand">CO₂-Footprint</h1>
+            <div className="site-header__inner">
+                <div className="brand">
+                    <Logo size={44} />
+                    <h1 className="brand__title">CO₂-Footprint</h1>
+                </div>
 
                 <nav className="global-nav" aria-label="Hauptnavigation">
                     <ul>
