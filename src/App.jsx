@@ -31,6 +31,21 @@ function App() {
             <h2>{t('contactHeading')}</h2>
             <p>{t('contactText')}</p>
           </section>
+
+          <section id="impressum" className="legal-section">
+            <h2>{t('footerImprint')}</h2>
+            <p>{t('imprintText')}</p>
+          </section>
+
+          <section id="datenschutz" className="legal-section">
+            <h2>{t('footerPrivacy')}</h2>
+            <p>{t('privacyText')}</p>
+          </section>
+
+          <section id="nutzung" className="legal-section">
+            <h2>{t('footerTerms')}</h2>
+            <p>{t('termsText')}</p>
+          </section>
         </main>
       </div>
 

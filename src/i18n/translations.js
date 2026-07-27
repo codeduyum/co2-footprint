@@ -47,6 +47,12 @@ export const translations = {
     contactHeading: 'Kontakt',
     contactText:
       'Diese Plattform wird von einer gemeinnützigen Klimaschutzorganisation betrieben. Für Rückfragen zu den Daten oder zur Methodik erreichen Sie uns unter kontakt@co2-footprint.example.',
+    imprintText:
+      'Angaben gemäß § 5 TMG: CO₂-Footprint ist ein fiktives Demonstrationsprojekt im Rahmen einer Fallstudie. Vertreten durch die Projektleitung, Musterstraße 1, 12345 Musterstadt.',
+    privacyText:
+      'Diese Anwendung verarbeitet keine personenbezogenen Daten. Es werden weder Cookies gesetzt noch Nutzungsdaten an Dritte übermittelt. Sämtliche Verarbeitung findet ausschließlich im Browser statt.',
+    termsText:
+      'Die Inhalte dieser Seite dienen ausschließlich Demonstrationszwecken. Die dargestellten Emissionsdaten sind frei erfunden und dürfen nicht als Grundlage für Entscheidungen herangezogen werden.',
 
   },
 
@@ -90,6 +96,12 @@ export const translations = {
     contactHeading: 'Contact',
     contactText:
       'This platform is operated by a non-profit climate organization. For questions about the data or methodology, please contact us at kontakt@co2-footprint.example.',
+    imprintText:
+      'Legal information: CO₂-Footprint is a fictional demonstration project created as part of a case study. Represented by the project management, Musterstraße 1, 12345 Musterstadt, Germany.',
+    privacyText:
+      'This application does not process any personal data. No cookies are set and no usage data is transmitted to third parties. All processing takes place exclusively in the browser.',
+    termsText:
+      'The content of this site is provided for demonstration purposes only. The emission data shown is fictional and must not be used as a basis for any decisions.',
 
   },
 
@@ -130,6 +142,10 @@ export const translations = {
     methodText: '.مومعلل ةحاتمو ةقوثوم رداصم نم تانايبلا يتأتس ،يقيقح قيبطت يف .ايًونس نط اغيملاب تاثاعبنالا ميق ىطعتُ',
     contactHeading: 'انب لصتا',
     contactText: ' ىلع انتلسارم ىجري ،ةيجهنملا وأ تانايبلا لوح تاراسفتسالل .ةيحبر ريغ ةيخانم ةمظنم لبق نم ةصنملا هذه رادتُ kontakt@co2-footprint.example.',
+    imprintText: 'Musterstraße 1، 12345 ،عورشملا ةرادإب الًثمم .ةلاح ةسارد راطإ يف ئشنأُ يلايخ يحيضوت عورشم وه CO₂-Footprint :ةينوناق تامولعم      Musterstadt، ايناملأ.',
+    privacyText: '.تارارق يأل ساسأك اهمادختسا زوجي الو ةيلايخ ةضورعملا تاثاعبنالا تانايب .طقف يحيضوتلا ضرعلا ضارغأل صصخم ةحفصلا هذه ىوتحم',
+    termsText: '.تارارق يأل ساسأك اهمادختسا زوجي الو ةيلايخ ةضورعملا تاثاعبنالا تانايب .طقف يحيضوتلا ضرعلا ضارغأل صصخم ةحفصلا هذه ىوتحم',
+    
   },
 
 }

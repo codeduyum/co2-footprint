@@ -355,6 +355,21 @@ body {
   padding: 1.5rem;
 }
 
+/* Rechtliche Hinweise */
+.legal-section {
+  background: #ffffff;
+  border: 1px solid #d9e2dd;
+  border-radius: 10px;
+  padding: 1.25rem 1.5rem;
+  font-size: 0.9rem;
+  color: #5b6b64;
+}
+
+.legal-section h2 {
+  font-size: 1rem;
+  margin-block: 0 0.5rem;
+}
+
 /* Tablet */
 @media (max-width: 900px) {
   .content {
