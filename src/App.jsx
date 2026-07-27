@@ -1,16 +1,15 @@
+import Header from "./components/Header.jsx"
+import Footer from "./components/Footer.jsx"
+
 function App() {
   return (
     <div className="page">
-      <header className="site-header">
-        <h1>CO₂-Footprint</h1>
-      </header>
+      <Header />
       <main className="content">
         <p>Hier entsteht die Übersicht der CO₂-Emissionen.</p>
       </main>
 
-      <footer className="site-footer">
-        <p>© 2026 CO₂-Footprint</p>
-      </footer>
+      <Footer />
     </div>
   )
 }
