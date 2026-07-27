@@ -170,7 +170,9 @@ function EmissionsTable() {
                   <td>{tData(row.country)}</td>
                   <td>{row.company}</td>
                   <td>{tData(row.sector)}</td>
-                  <td className="num">{row.emissions}</td>
+                  <td className="num">
+                    {row.emissions.toLocaleString(lang, { minimumFractionDigits: 1 })}
+                    </td>
                   <td className="num">{row.year}</td>
                 </tr>
               ))
