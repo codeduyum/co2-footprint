@@ -118,6 +118,41 @@ body {
   margin: 0 auto;
 }
 
+/* Tabelle */
+.table-wrapper {
+  overflow-x: auto;              /* für schmale Geräte: Tabelle scrollt, nicht die Seite */
+  background: #ffffff;
+  border: 1px solid #d9e2dd;
+  border-radius: 10px;
+}
+
+.data-table {
+  width: 100%;
+  border-collapse: collapse;     /* keine doppelten Linien zwischen Zellen */
+  min-width: 600px;              /* darunter wird gescrollt */
+}
+
+.data-table th,
+.data-table td {
+  padding: 0.75rem;
+  text-align: left;
+  border-bottom: 1px solid #d9e2dd;
+}
+
+.data-table thead th {
+  background: #eef4f1;
+}
+
+.data-table td.num,
+.data-table th.num {
+  text-align: right;
+  font-variant-numeric: tabular-nums;  /* Ziffern gleich breit für saubere Spalte */
+}
+
+.data-table tbody tr:nth-child(even) {
+  background: #fbfdfc;           /* Zebra-Streifen für bessere Lesbarkeit */
+}
+
 /* Tablet */
 @media (max-width: 900px) {
   .content{
