@@ -44,6 +44,9 @@ export const translations = {
     methodHeading: 'Methodik',
     methodText:
       'Die Emissionswerte sind in Megatonnen CO₂ pro Jahr angegeben. In einer produktiven Anwendung würden die Daten aus geprüften, öffentlich zugänglichen Quellen stammen.',
+    contactHeading: 'Kontakt',
+    contactText:
+      'Diese Plattform wird von einer gemeinnützigen Klimaschutzorganisation betrieben. Für Rückfragen zu den Daten oder zur Methodik erreichen Sie uns unter kontakt@co2-footprint.example.',
 
   },
 
@@ -84,7 +87,10 @@ export const translations = {
     methodHeading: 'Methodology',
     methodText:
       'Emission values are given in megatonnes of CO₂ per year. In a production application, the data would come from verified, publicly available sources.',
-    
+    contactHeading: 'Contact',
+    contactText:
+      'This platform is operated by a non-profit climate organization. For questions about the data or methodology, please contact us at kontakt@co2-footprint.example.',
+
   },
 
   ar: {
@@ -122,7 +128,8 @@ export const translations = {
     introText: '.ةيلايخ ةيبيرجت تانايب ةضورعملا ماقرألا عيمج .ايًونس تاكرشلاو لودلا اهقلطتُ يتلا نوبركلا ديسكأ يناث ةيمك ةصنملا هذه رهظتُ',
     methodHeading: 'ةيجهنملا',
     methodText: '.مومعلل ةحاتمو ةقوثوم رداصم نم تانايبلا يتأتس ،يقيقح قيبطت يف .ايًونس نط اغيملاب تاثاعبنالا ميق ىطعتُ',
-    
+    contactHeading: 'انب لصتا',
+    contactText: ' ىلع انتلسارم ىجري ،ةيجهنملا وأ تانايبلا لوح تاراسفتسالل .ةيحبر ريغ ةيخانم ةمظنم لبق نم ةصنملا هذه رادتُ kontakt@co2-footprint.example.',
   },
 
 }

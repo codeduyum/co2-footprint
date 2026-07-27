@@ -4,7 +4,7 @@ function Footer() {
   const { t } = useLanguage()
 
   return (
-    <footer className="site-footer" id="kontakt">
+    <footer className="site-footer">
       <nav className="footer-links" aria-label={t('footerImprint')}>
         <ul>
           <li><a href="#impressum">{t('footerImprint')}</a></li>

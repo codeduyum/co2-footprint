@@ -26,6 +26,11 @@ function App() {
             <h2>{t('methodHeading')}</h2>
             <p>{t('methodText')}</p>
           </section>
+
+          <section id="kontakt" className="text-section">
+            <h2>{t('contactHeading')}</h2>
+            <p>{t('contactText')}</p>
+          </section>
         </main>
       </div>
 

@@ -13,6 +13,7 @@ function LocalNav() {
         <li><a href="#intro">{t('localIntro')}</a></li>
         <li><a href="#daten">{t('localTable')}</a></li>
         <li><a href="#methodik">{t('localMethod')}</a></li>
+        <li><a href="#kontakt">{t('contactHeading')}</a></li>
       </ul>
     </nav>
   )
