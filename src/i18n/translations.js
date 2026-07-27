@@ -34,7 +34,17 @@ export const translations = {
     footerTerms: 'Nutzungsbedingungen',
     footerDisclaimer: 'Alle Angaben ohne Gewähr. Die dargestellten Emissionsdaten sind frei erfunden und stellen keine realen Werte dar.',
     footerCopyright: '© 2026 CO₂-Footprint - Ein Projekt einer gemeinnützigen Klimaschutzorganisation.',
-    
+    localNavHeading: 'Auf dieser Seite',
+    localIntro: 'Einleitung',
+    localTable: 'Emissionsdaten',
+    localMethod: 'Methodik',
+    introHeading: 'Wer emittiert wie viel CO₂?',
+    introText:
+      'Diese Plattform macht sichtbar, welche Länder und Unternehmen jährlich wie viel Kohlendioxid ausstoßen. Alle gezeigten Zahlen sind fiktive Beispieldaten.',
+    methodHeading: 'Methodik',
+    methodText:
+      'Die Emissionswerte sind in Megatonnen CO₂ pro Jahr angegeben. In einer produktiven Anwendung würden die Daten aus geprüften, öffentlich zugänglichen Quellen stammen.',
+
   },
 
   en: {
@@ -64,6 +74,16 @@ export const translations = {
     footerTerms: 'Terms of use',
     footerDisclaimer: 'All information without guarantee. The emission data shown is fictional and does not represent real values.',
     footerCopyright: '© 2026 CO₂-Footprint - A project by a non-profit climate organization.',
+    localNavHeading: 'On this page',
+    localIntro: 'Introduction',
+    localTable: 'Emission data',
+    localMethod: 'Methodology',
+    introHeading: 'Who emits how much CO₂?',
+    introText:
+      'This platform reveals how much carbon dioxide countries and companies emit each year. All figures shown are fictional sample data.',
+    methodHeading: 'Methodology',
+    methodText:
+      'Emission values are given in megatonnes of CO₂ per year. In a production application, the data would come from verified, publicly available sources.',
     
   },
 
@@ -94,6 +114,14 @@ export const translations = {
     footerTerms: 'مادختسالا طورش',
     footerDisclaimer:'.ةيقيقح امًيق لثمت الو ةيلايخ ةضورعملا تاثاعبنالا تانايب .نامض نودب تامولعملا عيمج',
     footerCopyright: '© 2026 CO₂-Footprint - ةيحبر ريغ ةيخانم ةمظنمل عورشم.',
+    localNavHeading: 'ةحفصلا هذه يف',
+    localIntro: 'ةمدقم',
+    localTable: 'تاثاعبنالا تانايب',
+    localMethod: 'ةيجهنملا',
+    introHeading: '؟نوبركلا ديسكأ يناث نم ربكأ ةيمك ردصيُ نم',
+    introText: '.ةيلايخ ةيبيرجت تانايب ةضورعملا ماقرألا عيمج .ايًونس تاكرشلاو لودلا اهقلطتُ يتلا نوبركلا ديسكأ يناث ةيمك ةصنملا هذه رهظتُ',
+    methodHeading: 'ةيجهنملا',
+    methodText: '.مومعلل ةحاتمو ةقوثوم رداصم نم تانايبلا يتأتس ،يقيقح قيبطت يف .ايًونس نط اغيملاب تاثاعبنالا ميق ىطعتُ',
     
   },
 
