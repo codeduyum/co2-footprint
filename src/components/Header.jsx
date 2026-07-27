@@ -18,20 +18,6 @@ function Header() {
           </div>
         </div>
 
-        <button
-          className="nav-toggle"
-          aria-expanded={menuOpen}
-          aria-controls="global-nav"
-          onClick={() => setMenuOpen(!menuOpen)}
-        >
-          <span className="visually-hidden">
-            {menuOpen ? t('menuClose') : t('menuOpen')}
-          </span>
-          <span className="nav-toggle__bar" aria-hidden="true"></span>
-          <span className="nav-toggle__bar" aria-hidden="true"></span>
-          <span className="nav-toggle__bar" aria-hidden="true"></span>
-        </button>
-
         <nav
           id="global-nav"
           className={menuOpen ? 'global-nav global-nav--open' : 'global-nav'}
@@ -43,8 +29,25 @@ function Header() {
             <li><a href="#methodik" onClick={() => setMenuOpen(false)}>{t('navMethod')}</a></li>
             <li><a href="#kontakt" onClick={() => setMenuOpen(false)}>{t('navContact')}</a></li>
           </ul>
-          <LanguageSwitcher />
         </nav>
+
+        <div className="header-actions">
+          <LanguageSwitcher />
+
+          <button
+            className="nav-toggle"
+            aria-expanded={menuOpen}
+            aria-controls="global-nav"
+            onClick={() => setMenuOpen(!menuOpen)}
+          >
+            <span className="visually-hidden">
+              {menuOpen ? t('menuClose') : t('menuOpen')}
+            </span>
+            <span className="nav-toggle__bar" aria-hidden="true"></span>
+            <span className="nav-toggle__bar" aria-hidden="true"></span>
+            <span className="nav-toggle__bar" aria-hidden="true"></span>
+          </button>
+        </div>
       </div>
     </header>
   )

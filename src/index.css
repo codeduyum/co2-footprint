@@ -47,7 +47,6 @@ body {
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 1.5rem;
   flex-wrap: wrap;
 }
@@ -259,6 +258,42 @@ body {
   margin: 0;
 }
 
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+/* Schiebt Navigation und Aktionen an das Zeilenende */
+.global-nav {
+  margin-inline-start: auto;
+}
+
+.brand__tagline {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #b9d9cd;
+}
+
+.lang-switcher select {
+  background: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 6px;
+  padding: 0.45rem 0.6rem;
+  font: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.lang-switcher select:hover {
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.lang-switcher option {
+  color: #000000;
+}
+
 /* Tablet */
 @media (max-width: 900px) {
   .content{
@@ -279,6 +314,8 @@ body {
   .global-nav {
     display: none;
     flex-basis: 100%;
+    order: 3;                    /* rutscht in die zweite Zeile */
+    margin-inline-start: 0;      /* kein Rechtsschub auf Mobil */
   }
 
   .global-nav--open {
@@ -289,5 +326,9 @@ body {
     flex-direction: column;
     gap: 0.25rem;
     padding-top: 0.5rem;
+  }
+
+  .header-actions {
+    margin-inline-start: auto;   /* Aktionen ans Zeilenende */
   }
 }
