@@ -167,6 +167,66 @@ body {
   color: #1b7f5c;
 }
 
+/* Filter */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-end;
+  background: #ffffff;
+  border: 1px solid #d9e2dd;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.filters__field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  flex: 1 1 180px;      /* wachsen, schrumpfen, Basisbreite 180px */
+}
+
+.filters__field label {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.filters input,
+.filters select {
+  padding: 0.5rem;
+  border: 1px solid #d9e2dd;
+  border-radius: 8px;
+  font: inherit;
+}
+
+.btn-reset {
+  padding: 0.5rem 1rem;
+  background: #1b7f5c;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font: inherit;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-reset:hover {
+  background: #146347;
+}
+
+.results-count {
+  font-size: 0.9rem;
+  color: #5b6b64;
+  margin: 0 0 0.75rem;
+}
+
+.no-results {
+  text-align: center;
+  color: #5b6b64;
+  padding: 2rem;
+}
+
 /* Tablet */
 @media (max-width: 900px) {
   .content{

@@ -16,3 +16,12 @@ export const emissions = [
   { id: 11, country: 'Frankreich', company: 'Loire Énergie SA', sector: 'Energie', emissions: 39.6, year: 2024 },
   { id: 12, country: 'Kanada', company: 'Maple Tar Sands Inc.', sector: 'Öl & Gas', emissions: 99.2, year: 2023 },
 ]
+
+// Eindeutige, alphabetisch sortierte Listen für die Auswahlfelder
+export const countries = [...new Set(emissions.map((row) => row.country))].sort(
+  (a, b) => a.localeCompare(b, 'de'),
+)
+
+export const companies = [...new Set(emissions.map((row) => row.company))].sort(
+  (a, b) => a.localeCompare(b, 'de'),
+)
