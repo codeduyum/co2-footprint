@@ -393,6 +393,11 @@ body {
 
 /* Smartphone */
 @media (max-width: 640px) {
+  /* Untertitel ausblenden weil ist auf kleinen Bildschirmen verzichtbar */
+  .brand__tagline {
+    display: none;
+  }
+
   .nav-toggle {
     display: flex;
   }
