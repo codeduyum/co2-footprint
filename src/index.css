@@ -1,3 +1,9 @@
+:root {
+  --color-header: #12332a;
+  --color-bg: #f6f8f7;
+  --color-text: #1a2420;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -5,4 +11,33 @@
 body {
   margin: 0;
   font-family: system-ui, sans-serif;
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.site-header {
+  background: var(--color-header);
+  color: #ffffff;
+  padding: 1rem 1.5rem;
+}
+
+.content {
+  flex: 1;
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1.5rem;
+}
+
+.site-footer {
+  background: var(--color-header);
+  color: #cfe6dc;
+  padding: 1.5rem;
+  text-align: center;
 }
