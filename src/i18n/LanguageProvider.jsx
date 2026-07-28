@@ -1,9 +1,23 @@
 import { useEffect, useState } from 'react'
 import { LanguageContext } from './LanguageContext.js'
-import { LANGUAGES, translations, dataLabels } from './translations.js'
+import { LANGUAGES, DEFAULT_LANG, translations, dataLabels } from './translations.js'
+
+// Ermittelt die Startsprache aus den Browsereinstellungen.
+function detectLanguage() {
+  const preferred = navigator.languages ?? [navigator.language]
+
+  for (const tag of preferred) {
+    const code = tag.toLowerCase().split('-')[0]
+    if (LANGUAGES[code]) {
+      return code
+    }
+  }
+
+  return DEFAULT_LANG
+}
 
 export function LanguageProvider({ children }) {
-  const [lang, setLang] = useState('de')
+  const [lang, setLang] = useState(detectLanguage)
 
   const dir = LANGUAGES[lang].dir
 

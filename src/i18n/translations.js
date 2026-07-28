@@ -6,6 +6,10 @@ export const LANGUAGES = {
   ar: { label: 'العربية', dir: 'rtl' },
 }
 
+// Rückfallsprache, wenn keine der Browsersprachen unterstützt wird
+export const DEFAULT_LANG = 'de'
+
+
 export const translations = {
   de: {
     tagline: 'Transparenz über Emissionen',
